@@ -48,8 +48,8 @@ gem 'bcrypt_pbkdf', '>= 1.0'
 # https://github.com/mileszs/wicked_pdf
 # gem 'wicked_pdf', :git => 'https://github.com/mileszs/wicked_pdf.git'
 gem 'wicked_pdf'
-# gem 'wkhtmltopdf-binary', :git => 'https://github.com/pallymore/wkhtmltopdf-binary.git'
-gem 'wkhtmltopdf-binary'
+gem 'wkhtmltopdf-binary', :git => 'https://github.com/pallymore/wkhtmltopdf-binary.git'
+# gem 'wkhtmltopdf-binary'
 gem 'bootstrap'
 
 group :test do

@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/pallymore/wkhtmltopdf-binary.git
+  revision: d58ccefd6cbd4b6e1d0767c7b6520aa70efca8bb
+  specs:
+    wkhtmltopdf-binary (0.12.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -333,7 +339,6 @@ GEM
     websocket-extensions (0.1.5)
     wicked_pdf (2.1.0)
       activesupport
-    wkhtmltopdf-binary (0.12.6.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
     yaml_db (0.7.0)
@@ -388,7 +393,7 @@ DEPENDENCIES
   web-console (>= 3.3.0)
   webpacker
   wicked_pdf
-  wkhtmltopdf-binary
+  wkhtmltopdf-binary!
   yaml_db
 
 RUBY VERSION
