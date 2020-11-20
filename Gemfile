@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| 'https://github.com/#{repo}.git' }
 
 ruby '2.7.1'
-
+gem 'activesupport', '~> 5.2', '>= 5.2.4.4'
 gem 'pdf-reader'
 gem 'mailgun'
 gem 'rails-erd'
