@@ -1,0 +1,24 @@
+{
+  "name": "cooler",
+  "version": "1.0.0",
+  "description": "Community Event; Carbon Point Survey and Estimator",
+  "main": "babel.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smithwebtek/cooler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smithwebtek/cooler/issues"
+  },
+  "homepage": "https://github.com/smithwebtek/cooler#readme"
+}
