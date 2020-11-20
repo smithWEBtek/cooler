@@ -37,9 +37,10 @@ gem 'capistrano-rails', '~> 1.3', require: false
 gem 'capistrano-bundler'
 gem 'capistrano-passenger'
 gem 'capistrano-rvm'
-gem 'listen', '>= 3.0.5', '< 3.2'
+gem 'ed25519', '>= 1.2'
+gem 'bcrypt_pbkdf', '>= 1.0'
 
-  # for generation of PDF files from Rails views
+# for generation of PDF files from Rails views
 # gem 'nokogiri', :git => 'https://github.com/tenderlove/nokogiri.git'
 # https://github.com/mileszs/wicked_pdf
 # gem 'wicked_pdf', :git => 'https://github.com/mileszs/wicked_pdf.git'
@@ -54,6 +55,7 @@ group :test do
 end
 
 group :development do
+  gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'guard'
   gem 'guard-shell'
   gem 'web-console', '>= 3.3.0'
