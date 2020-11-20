@@ -373,7 +373,7 @@ DEPENDENCIES
   pry-rails
   puma (~> 3.11)
   rack-cors
-  rails (~> 5.2.3)
+  rails (~> 5.2)
   rails-erd
   sass-rails (~> 5.0)
   seed_dump
