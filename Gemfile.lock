@@ -341,6 +341,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  actionview
   active_model_serializers
   activesupport
   bcrypt (~> 3.1.7)

@@ -4,6 +4,7 @@ git_source(:github) { |repo| 'https://github.com/#{repo}.git' }
 ruby '2.6.5'
 # gem 'activesupport', '~> 5.2', '>= 5.2.4.4'
 gem 'activesupport'
+gem 'actionview'
 gem 'pdf-reader'
 gem 'mailgun'
 gem 'rails-erd'
