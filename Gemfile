@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| 'https://github.com/#{repo}.git' }
 
 gem 'rails', '~> 5.2'
-ruby '2.7.1'
+ruby '2.7.6'
 
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.11'
@@ -20,7 +20,7 @@ gem 'mailgun'
 gem 'rails-erd'
 gem 'pry-rails'
 gem 'watir'
-gem 'nokogiri', '>=1.5.9'
+gem 'nokogiri', '~> 1.11'
 gem 'httparty'
 gem 'faraday'
 gem 'thor', '~> 0.19.0'
