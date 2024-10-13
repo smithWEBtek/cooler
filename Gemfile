@@ -1,7 +1,17 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| 'https://github.com/#{repo}.git' }
 
-ruby '2.6.5'
+gem 'rails', '~> 5.2'
+ruby '2.7.1'
+
+gem 'pg', '>= 0.18', '< 2.0'
+gem 'puma', '~> 3.11'
+gem 'rack-cors', :require => 'rack/cors'
+gem 'webpacker'
+gem 'dotenv-rails', :groups => [:development, :test]
+# gem 'libv8-node', '~> 15.14'
+gem 'active_model_serializers'
+
 # gem 'activesupport', '~> 5.2', '>= 5.2.4.4'
 gem 'activesupport'
 gem 'actionview'
@@ -16,21 +26,15 @@ gem 'faraday'
 gem 'thor', '~> 0.19.0'
 gem 'yaml_db'
 gem 'jquery-rails'
-gem 'rack-cors', :require => 'rack/cors'
 gem 'seed_dump'	
 gem 'mechanize', '~> 2.7', '>= 2.7.5'
 
-gem 'rails', '~> 5.2'
-gem 'puma', '~> 3.11'
-gem 'sass-rails', '~> 5.0'
+# gem 'sass-rails', '~> 5.0'
+gem 'sass-rails'
 gem 'uglifier', '>= 1.3.0'
-gem 'pg', '>= 0.18', '< 2.0'
 gem 'font-awesome-rails'
-gem 'webpacker'
-gem 'dotenv-rails', :groups => [:development, :test]
-gem 'active_model_serializers'
 gem 'http'
-gem 'mini_racer'
+# gem 'mini_racer'
 
 gem 'jbuilder', '~> 2.5'
 gem 'bcrypt', '~> 3.1.7'
